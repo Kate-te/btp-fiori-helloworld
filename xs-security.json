@@ -1,6 +1,21 @@
 {
-  "description": "Security profile of called application",
-  "scopes": [],
-  "attributes": [],
-  "role-templates": []
+    "xsappname": "helloworldui5",
+    "description": "Security profile of called application",
+    "scopes": [
+          {
+                  "name": "$XSAPPNAME.helloworlddisplay",
+                  "description": "Display Hello World"
+          }
+    ],
+    "attributes": [],
+    "role-templates": [
+          {
+                  "name": "HelloWorldDisplayRole",
+                  "description": "Display Hello World",
+                  "scope-references": [
+                            "$XSAPPNAME.helloworlddisplay"
+                  ],
+                  "attribute-references": []
+          }
+    ]
 }
