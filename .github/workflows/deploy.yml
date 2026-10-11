@@ -31,6 +31,9 @@ jobs:
           echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
           sudo apt-get update && sudo apt-get install -y cf8-cli
 
+      - name: Install MultiApps CF CLI Plugin
+        run: cf install-plugin multiapps -f
+
       - name: Deploy to Cloud Foundry
         run: |
           cf api ${{ secrets.CF_API_ENDPOINT }}
