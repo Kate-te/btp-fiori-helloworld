@@ -17,5 +17,14 @@
                   ],
                   "attribute-references": []
           }
+    ],
+    "role-collections": [
+          {
+                  "name": "HelloWorldDisplayRole",
+                  "description": "Display Hello World",
+                  "role-template-references": [
+                            "$XSAPPNAME.HelloWorldDisplayRole"
+                  ]
+          }
     ]
 }
