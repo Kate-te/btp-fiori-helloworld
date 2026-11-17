@@ -1,0 +1,76 @@
+[
+  {
+    "_version": "3.0",
+    "identification": {
+      "id": "wz_helloworld_catalog",
+      "title": "Provider: тестові програми",
+      "entityType": "catalog"
+    },
+    "payload": {
+      "viz": [
+        {
+          "appId": "sap.btp.helloworldui5",
+          "vizId": "semanticobjecthelloworld-show"
+        }
+      ]
+    },
+    "texts": [
+      {
+        "locale": "",
+        "textDictionary": {
+          "title": "Provider: тестові програми"
+        }
+      }
+    ]
+  },
+  {
+    "_version": "3.0",
+    "identification": {
+      "id": "wz_helloworld_group",
+      "title": "Provider: тестові програми",
+      "entityType": "group"
+    },
+    "payload": {
+      "viz": [
+        {
+          "appId": "sap.btp.helloworldui5",
+          "vizId": "semanticobjecthelloworld-show"
+        }
+      ]
+    },
+    "texts": [
+      {
+        "locale": "",
+        "textDictionary": {
+          "title": "Provider: тестові програми"
+        }
+      }
+    ]
+  },
+  {
+    "_version": "3.0",
+    "identification": {
+      "id": "wz_helloworld_role",
+      "title": "Користувач тестових програм",
+      "description": "Набір тестових плиток",
+      "entityType": "role"
+    },
+    "payload": {
+      "apps": [
+        {
+          "id": "sap.btp.helloworldui5"
+        }
+      ],
+      "catalogs": [
+        {
+          "id": "wz_helloworld_catalog"
+        }
+      ],
+      "groups": [
+        {
+          "id": "wz_helloworld_group"
+        }
+      ]
+    }
+  }
+]

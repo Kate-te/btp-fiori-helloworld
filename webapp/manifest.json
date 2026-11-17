@@ -110,6 +110,6 @@
   },
   "sap.cloud": {
     "public": true,
-    "service": "sapbtphelloworldui5"
+    "service": "kpi_helloworld"
   }
 }
