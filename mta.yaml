@@ -70,8 +70,8 @@ modules:
     build-result: resources
     requires:
     - artifacts:
-      - sapbtphelloworldui5.zip
-      name: sapbtphelloworldui5
+      - sapbtphelloworldsaas.zip
+      name: sapbtphelloworldsaas
       target-path: resources/
   parameters:
     config:
@@ -81,7 +81,7 @@ modules:
 ########################################################################
 
 # HTML5 Module #########################################################
-- name: sapbtphelloworldui5
+- name: sapbtphelloworldsaas
   type: html5
   path: .
   build-parameters:

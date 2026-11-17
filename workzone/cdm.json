@@ -9,7 +9,7 @@
     "payload": {
       "viz": [
         {
-          "appId": "sap.btp.helloworldui5",
+          "appId": "sap.btp.helloworldsaas",
           "vizId": "semanticobjecthelloworld-show"
         }
       ]
@@ -33,7 +33,7 @@
     "payload": {
       "viz": [
         {
-          "appId": "sap.btp.helloworldui5",
+          "appId": "sap.btp.helloworldsaas",
           "vizId": "semanticobjecthelloworld-show"
         }
       ]
@@ -58,7 +58,7 @@
     "payload": {
       "apps": [
         {
-          "id": "sap.btp.helloworldui5"
+          "id": "sap.btp.helloworldsaas"
         }
       ],
       "catalogs": [
